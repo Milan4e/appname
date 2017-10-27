@@ -5,5 +5,6 @@ const app = new Koa();
 app.use(ctx => {
   ctx.body = 'Hello Koa';
 });
- 
-app.listen(process.env.PORT || 3000);
+
+console.log(8080)
+app.listen(8080);
