@@ -2,9 +2,9 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /var/api/
+    destination: /var/app/current
 hooks:
-  AfterInstall:
+  BeforeInstall:
     - location: scripts/npm-install.sh
       runas: root
       timeout: 300

@@ -1,3 +1,3 @@
 #!/bin/bash
-cd /var/api
+cd /var/www
 npm start
