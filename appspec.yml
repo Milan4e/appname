@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /var/app/current
+    destination: /var/api
 hooks:
   BeforeInstall:
     - location: scripts/npm-install.sh

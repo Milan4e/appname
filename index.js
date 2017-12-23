@@ -7,7 +7,7 @@ const diacritics = require('diacritics')
 
 // response 
 app.use(ctx => {
-  ctx.body = { name: 'Milan', message: diacritics.remove("ċ") }
+  ctx.body = { name: 'Milan', message: diacritics.remove("ċḋ") }
 });
 
 app.listen(process.env.PORT || 3000);
