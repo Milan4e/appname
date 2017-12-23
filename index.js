@@ -6,5 +6,4 @@ app.use(ctx => {
   ctx.body = 'Hello Koa';
 });
 
-console.log(8080)
-app.listen(8080);
+app.listen(process.env.PORT || 3000);
